@@ -106,63 +106,63 @@ class QuestionSeeder extends Seeder
                 'title' => 'Hewan yang mempunyai tempurung yang sangat keras bernama..',
                 'image' => 'public\image\hewan_tumbuhan\kura-kura.jpg'
             ], [
-                'category_id' => 1,
-                'course_id' => 3,
-                'level_id' => 4,
+                'category_id' => 2,
+                'course_id' => 6,
+                'level_id' => 31,
                 'title' => 'Hewan yang suka main di lumpur ini bernama..',
                 'image' => 'public\image\hewan_tumbuhan\babi.jpg'
             ], [
-                'category_id' => 1,
-                'course_id' => 3,
-                'level_id' => 4,
+                'category_id' => 2,
+                'course_id' => 6,
+                'level_id' => 31,
                 'title' => 'serangga yang mempunyai sayap yang sangat indah ini bernama..',
                 'image' => 'public\image\hewan_tumbuhan\kupu-kupu.jpg'
             ], [
-                'category_id' => 1,
-                'course_id' => 3,
-                'level_id' => 4,
+                'category_id' => 2,
+                'course_id' => 6,
+                'level_id' => 31,
                 'title' => 'Hewan yang bisa berlari sangat kencang ini bernama..',
                 'image' => 'public\image\hewan_tumbuhan\kuda.jpg'
             ], [
-                'category_id' => 1,
-                'course_id' => 3,
-                'level_id' => 4,
+                'category_id' => 2,
+                'course_id' => 6,
+                'level_id' => 31,
                 'title' => 'Hewan yang suka menggonggong ini bernama..',
                 'image' => 'public\image\hewan_tumbuhan\anjing.jpg'
             ], [
-                'category_id' => 1,
-                'course_id' => 3,
-                'level_id' => 4,
+                'category_id' => 2,
+                'course_id' => 6,
+                'level_id' => 31,
                 'title' => 'Hewan karnivora ini bernama..',
                 'image' => 'public\image\hewan_tumbuhan\tiger-looking-with-open-mouth.jpg'
             ], [
-                'category_id' => 1,
-                'course_id' => 3,
-                'level_id' => 5,
+                'category_id' => 2,
+                'course_id' => 6,
+                'level_id' => 32,
                 'title' => 'Hewan yang suka memakan keju ini bernama..',
                 'image' => 'public\image\hewan_tumbuhan\tikus.jpg'
             ], [
-                'category_id' => 1,
-                'course_id' => 3,
-                'level_id' => 5,
+                'category_id' => 2,
+                'course_id' => 6,
+                'level_id' => 32,
                 'title' => 'Serangga yang suka memakan tumbuhan dan bergerak dengan cara melompat ini bernama',
                 'image' => 'public\image\hewan_tumbuhan\belalang.jpg'
             ], [
-                'category_id' => 1,
-                'course_id' => 3,
-                'level_id' => 5,
+                'category_id' => 2,
+                'course_id' => 6,
+                'level_id' => 32,
                 'title' => 'Hewan yang memiliki bisa atau racun yang mematikan ini bernama..',
                 'image' => 'public\image\hewan_tumbuhan\ular.jpg'
             ], [
-                'category_id' => 1,
-                'course_id' => 3,
-                'level_id' => 5,
+                'category_id' => 2,
+                'course_id' => 6,
+                'level_id' => 32,
                 'title' => 'Hewan yang bisa menghasilkan susu dan diminum oleh manusia bernama..',
                 'image' => 'public\image\hewan_tumbuhan\cows-standing-green-field-front-fuji-mountain-japan.jpg'
             ], [
-                'category_id' => 1,
-                'course_id' => 3,
-                'level_id' => 5,
+                'category_id' => 2,
+                'course_id' => 6,
+                'level_id' => 32,
                 'title' => 'Hewan yang menghasilkan madu ini bernama..',
                 'image' => 'public\image\hewan_tumbuhan\lebah.jpg'
             ], [
@@ -256,63 +256,63 @@ class QuestionSeeder extends Seeder
                 'title' => 'Orang yang menjual suatu barang kepada orang lain disebut …',
                 'image' => 'public\image\pekerjaan\pedagang.jpg'
             ], [
-                'category_id' => 1,
-                'course_id' => 4,
-                'level_id' => 9,
+                'category_id' => 2,
+                'course_id' => 7,
+                'level_id' => 36,
                 'title' => 'Orang yang memiliki suara bagus biasanya akan menjadi seorang',
                 'image' => 'public\image\pekerjaan\penyanyi.jpg'
             ], [
-                'category_id' => 1,
-                'course_id' => 4,
-                'level_id' => 9,
+                'category_id' => 2,
+                'course_id' => 7,
+                'level_id' => 36,
                 'title' => 'Orang yang memiliki kemampuan untuk menggambar di kanvas biasanya disebut seorang …',
                 'image' => 'public\image\pekerjaan\pelukis.jpg'
             ], [
-                'category_id' => 1,
-                'course_id' => 4,
-                'level_id' => 9,
+                'category_id' => 2,
+                'course_id' => 7,
+                'level_id' => 36,
                 'title' => 'Orang yang bertugas untuk membangun rumah dan Gedung biasa disebut seorang…',
                 'image' => 'public\image\kuli_bangunan.jpg'
             ], [
-                'category_id' => 1,
-                'course_id' => 4,
-                'level_id' => 9,
+                'category_id' => 2,
+                'course_id' => 7,
+                'level_id' => 36,
                 'title' => 'Orang yang bertugas untuk memotret dan memfoto orang-orang disebut…',
                 'image' => 'public\image\pekerjaan\fotografer.jpg'
             ], [
-                'category_id' => 1,
-                'course_id' => 4,
-                'level_id' => 9,
+                'category_id' => 2,
+                'course_id' => 7,
+                'level_id' => 36,
                 'title' => 'Orang yang bertugas untuk membuat berita dan memberitakan suatu kejadian disebut…',
                 'image' => 'public\image\pekerjaan\reporter.jpg'
             ], [
-                'category_id' => 1,
-                'course_id' => 4,
-                'level_id' => 10,
+                'category_id' => 2,
+                'course_id' => 7,
+                'level_id' => 37,
                 'title' => 'Orang yang memimpin negara Indonesia dinamakan …',
                 'image' => 'public\image\pekerjaan\presiden.jpg'
             ], [
-                'category_id' => 1,
-                'course_id' => 4,
-                'level_id' => 10,
+                'category_id' => 2,
+                'course_id' => 7,
+                'level_id' => 37,
                 'title' => 'Orang yang mahir atau jago dalam suatu cabang olahraga biasa disebut sebagai …',
                 'image' => 'public\image\pekerjaan\atlet.jpg'
             ], [
-                'category_id' => 1,
-                'course_id' => 4,
-                'level_id' => 10,
+                'category_id' => 2,
+                'course_id' => 7,
+                'level_id' => 37,
                 'title' => 'Orang yang memerankan karakter cowok dalam film disebut…',
                 'image' => 'public\image\pekerjaan\aktor.jpg'
             ], [
-                'category_id' => 1,
-                'course_id' => 4,
-                'level_id' => 10,
+                'category_id' => 2,
+                'course_id' => 7,
+                'level_id' => 37,
                 'title' => 'Orang yang memerankan karakter cewek dalam film disebut…',
                 'image' => 'public\image\pekerjaan\aktor.jpg'
             ], [
-                'category_id' => 1,
-                'course_id' => 4,
-                'level_id' => 10,
+                'category_id' => 2,
+                'course_id' => 7,
+                'level_id' => 37,
                 'title' => 'Orang yang bekerja di apotek ini bernama',
                 'image' => 'public\image\pekerjaan\Apoteker.jpg'
             ], 
@@ -408,63 +408,63 @@ class QuestionSeeder extends Seeder
                 'title' => 'Benda yang digunakan untuk menulis di papan tulis bernama',
                 'image' => 'public\image\benda_dirumah\spidol.jpg'
             ], [
-                'category_id' => 1,
-                'course_id' => 5,
-                'level_id' => 14,
+                'category_id' => 2,
+                'course_id' => 8,
+                'level_id' => 41,
                 'title' => 'Benda yang digunakan untuk meminum air ini bernama',
                 'image' => 'public\image\benda_dirumah\gelas.jpg'
             ], [
-                'category_id' => 1,
-                'course_id' => 5,
-                'level_id' => 14,
+                'category_id' => 2,
+                'course_id' => 8,
+                'level_id' => 41,
                 'title' => 'Benda yang digunakan untuk memakan mie atau spagetti ini bernama',
                 'image' => 'public\image\benda_dirumah\garpu.jpg'
             ], [
-                'category_id' => 1,
-                'course_id' => 5,
-                'level_id' => 14,
+                'category_id' => 2,
+                'course_id' => 8,
+                'level_id' => 41,
                 'title' => 'Benda yang digunakan untuk makan ini bernama',
                 'image' => 'public\image\benda_dirumah\sendok.jpg'
             ], [
-                'category_id' => 1,
-                'course_id' => 5,
-                'level_id' => 14,
+                'category_id' => 2,
+                'course_id' => 8,
+                'level_id' => 41,
                 'title' => 'Benda yang biasa digunakan untuk mandi ini bernama',
                 'image' => 'public\image\benda_dirumah\gayung.jpg'
             ], [
-                'category_id' => 1,
-                'course_id' => 5,
-                'level_id' => 14,
+                'category_id' => 2,
+                'course_id' => 8,
+                'level_id' => 41,
                 'title' => 'Benda yang digunakan untuk menyapu ini bernama',
                 'image' => 'public\image\benda_dirumah\sapu.jpg'
             ], [
-                'category_id' => 1,
-                'course_id' => 5,
-                'level_id' => 15,
+                'category_id' => 2,
+                'course_id' => 8,
+                'level_id' => 42,
                 'title' => 'Benda yang digunakan untuk tempat membuang sampah ini bernama',
                 'image' => 'public\image\benda_dirumah\tempat sampah.jpg'
             ], [
-                'category_id' => 1,
-                'course_id' => 5,
-                'level_id' => 15,
+                'category_id' => 2,
+                'course_id' => 8,
+                'level_id' => 42,
                 'title' => 'Benda yang digunakan untuk meletakkan makanan ini bernama',
                 'image' => 'public\image\benda_dirumah\piring.jpg'
             ], [
-                'category_id' => 1,
-                'course_id' => 5,
-                'level_id' => 15,
+                'category_id' => 2,
+                'course_id' => 8,
+                'level_id' => 42,
                 'title' => 'Benda yang digunakan untuk memotong ini bernama',
                 'image' => 'public\image\benda_dirumah\sendok.jpg'
             ], [
-                'category_id' => 1,
-                'course_id' => 5,
-                'level_id' => 15,
+                'category_id' => 2,
+                'course_id' => 8,
+                'level_id' => 42,
                 'title' => 'Benda yang biasa digunakan untuk menyimpan teh atau air ini bernama',
                 'image' => 'public\image\benda_dirumah\gayung.jpg'
             ], [
-                'category_id' => 1,
-                'course_id' => 5,
-                'level_id' => 15,
+                'category_id' => 2,
+                'course_id' => 8,
+                'level_id' => 42,
                 'title' => 'Benda yang digunakan untuk memasak ini bernama',
                 'image' => 'public\image\benda_dirumah\sapu.jpg'
             ], 

@@ -80,7 +80,7 @@ class CourseController extends Controller
             }
     
             $progress = LevelComplete::where('course_id', $id)->where('user_id', Auth::id())->where('status', 1)->get();
-            $details->progress = count($progress) / $details->level_count * 100;
+            $details->progress = ceil ( count($progress) / $details->level_count * 100 );
 
             $response = [
                 'success' => true,

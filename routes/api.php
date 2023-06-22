@@ -5,6 +5,7 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\UserController;
 use App\Http\Controllers\CourseController;
 use App\Http\Controllers\LevelController;
+use App\Http\Controllers\LeaderboardCon;
 use App\Http\Controllers\RewardController;
 
 /*
@@ -39,9 +40,9 @@ Route::middleware('auth:sanctum')->get('/reward', [RewardController::class, 'get
 Route::middleware('auth:sanctum')->get('/reward/{id}', [RewardController::class, 'getUserReward']);
 
 //Leaderboard
-Route::middleware('auth:sanctum')->get('/leaderboard', 'LeaderboardController@getLeaderboard');
+Route::middleware('auth:sanctum')->get('/leaderboard/{cat_id}/{cou_id}', [LeaderboardCon::class, 'getLeaderboard']);
 
 //profile
 Route::middleware('auth:sanctum')->get('/profile', [UserController::class, 'getUser']);
 Route::middleware('auth:sanctum')->post('/edit-profile', [UserController::class, 'editProfile']);
-Route::middleware('auth:sanctum')->post('/edit-image', [UserController::class, 'editProfilePic']);
+Route::middleware('auth:sanctum')->post('/edit-profile-image', [UserController::class, 'editProfilePic']);

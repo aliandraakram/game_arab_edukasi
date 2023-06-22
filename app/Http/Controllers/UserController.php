@@ -135,8 +135,8 @@ class UserController extends Controller
         
         $name = $request->name;
         $email = $request->email;
-        $old_password = $request->old_pass;
-        $new_password = $request->new_pass;
+        $old_pass = $request->old_pass;
+        $new_pass = $request->new_pass;
 
         $user = User::where('id', Auth::user()->id)->first();
 
@@ -157,35 +157,17 @@ class UserController extends Controller
             ], 200);
         }
         
-        // if (!$new_password == "" && Str::length($new_password) >= 8 && !$old_password == "" && Str::length($old_password) >= 8 ){
-        //     if (Str::contains($old_password, $user->password)){
-        //         $new_pass = Hash::make($new_password);
-        //         $user->password = $new_pass;
-        //         $user->save();
-        //     } else {
-        //         return response()->json([
-        //             'success' => false,
-        //             'data' => '',
-        //             'Message' => 'Password lama salah'
-        //         ], 200);
-        //     }
-        // } else if (!$new_password == "" && Str::length($new_password) < 8 ){
-        //     return response()->json([
-        //         'success' => false,
-        //         'data' => '',
-        //         'Message' => 'Password kurang dari 8 karakter'
-        //     ], 200);
-        // }
 
-        if (!$new_password == "" || !$old_password == ""){
-            if (Str::length($new_password) < 8 || Str::length($old_password < 8)) {
+        if (!$new_pass == "" && !$old_pass == ""){
+            if (Str::length($new_pass) < 8 && Str::length($old_pass < 8)) {
                 return response()->json([
                     'success' => false,
                     'data' => "",
                     'Message' => 'Password harus 8 karakter'
                 ], 200);
-            } else {
-                if (Hash::check($old_password, $user->password)){
+            }else {
+                if (Hash::check($old_pass, $user->password)){
+                    $new_password = Hash::make($new_pass);
                     $user->password = $new_password;
                     $user->save();
                 } else {
@@ -210,14 +192,22 @@ class UserController extends Controller
         $user = User::where('id', Auth::user()->id)->first();
         $image = Reward::where('id', $request->id)->first();
 
-        $user->image = $image;
-        $user->save();
+        if ($image) {
+            $user->photo = $image->location;
+            $user->save();
 
-        return response()->json([
-            'success' => true,
-            'data' => $user,
-            'Message' => 'Edit berhasil'
-        ], 200);
+            return response()->json([
+                'success' => true,
+                'data' => $user,
+                'Message' => 'Edit berhasil'
+            ], 200);
+        } else {
+            return response()->json([
+                'success' => true,
+                'data' => "",
+                'Message' => 'foto tidak ditemukan'
+            ], 200);
+        }
     }
     
 }

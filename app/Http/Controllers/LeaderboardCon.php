@@ -13,7 +13,7 @@ class LeaderboardCon extends Controller
 {
     public function getLeaderboard(Int $cat_id, Int $cou_id)
     {
-        if ($cat_id == null && $cou_id == null){
+        if ($cat_id == 0 && $cou_id == 0){
             $ranking = User::orderBy('total_skor', 'desc')->get();
 
             $response = [
@@ -27,7 +27,7 @@ class LeaderboardCon extends Controller
             ];
 
             return response()->json($response, 200);
-        }else if ($cou_id == null){
+        }else if ($cat_id != 0){
             $leaderboard_data = LevelComplete::where('category_id', $cat_id)
                 ->groupBy('user_id')
                 ->get();
@@ -48,7 +48,7 @@ class LeaderboardCon extends Controller
                 'data' => [
                     'category' => $category->name,
                     'course' => "",
-                    'ranking' => $data
+                    'ranking' => $leaderboard_data
                 ],
                 'message' => 'Getting Leaderboard data'
             ];

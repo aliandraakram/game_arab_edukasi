@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 use App\Models\Level;
+use App\Models\User;
 use App\Models\LevelComplete;
 use App\Models\Reward;
 use App\Models\RewardsCompleted;
@@ -51,6 +52,7 @@ class LevelController extends Controller
     {
         $answer = $request->get('right_answer');
         $level = Level::where('id', $level_id)->first();
+        $user = User::where('id', Auth::user()->id)->first();
 
         //question_count = 5, jumlah jawaban benar harus lebih dari setengah jumlah pertanyaan
         if($answer != 0 && $answer >= 3){
@@ -68,6 +70,9 @@ class LevelController extends Controller
             $level_complete->status = 1;
             $level_complete->save();
 
+            $user->total_skor = $user->total_skor + $level_complete->skor;
+            $user->save();
+
             if ($level->name == "level 5"){
                 $reward = Reward::where('course_id', $course_id)->first();
                 $rewardsComplete = RewardsCompleted::where('course_id', $course_id)->where('user_id', Auth::user()->id)->first();
@@ -81,6 +86,10 @@ class LevelController extends Controller
                     $rewardsComplete->location = $reward->location;
                     $rewardsComplete->save();
                 }
+
+                $user->course_completed = $user->course_completed + 1;
+                $user->save();
+                
             }else {
                 $reward = "";
             }

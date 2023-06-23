@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 use App\Models\Level;
+use App\Models\Course;
 use App\Models\User;
 use App\Models\LevelComplete;
 use App\Models\Reward;
@@ -53,12 +54,13 @@ class LevelController extends Controller
         $answer = $request->get('right_answer');
         $level = Level::where('id', $level_id)->first();
         $user = User::where('id', Auth::user()->id)->first();
+        $course = Course::where('id', $course_id)->first();
 
         //question_count = 5, jumlah jawaban benar harus lebih dari setengah jumlah pertanyaan
         if($answer != 0 && $answer >= 3){
             $level_complete = LevelComplete::where('level_id', $level_id)->where('course_id', $course_id)->where('user_id', Auth::user()->id)->first();
 
-            if (!$level){
+            if (!$level_complete){
                 $level_complete = new LevelComplete();
                 $level_complete->category_id = $level->category_id;
                 $level_complete->course_id = $course_id;
@@ -73,9 +75,9 @@ class LevelController extends Controller
             $user->total_skor = $user->total_skor + $level_complete->skor;
             $user->save();
 
-            if ($level->name == "level 5"){
-                $reward = Reward::where('course_id', $course_id)->first();
-                $rewardsComplete = RewardsCompleted::where('course_id', $course_id)->where('user_id', Auth::user()->id)->first();
+            if ($level->name == "level 3" && $level->category_id == 1){
+                $reward = Reward::where('course_id', $course->id)->first();
+                $rewardsComplete = RewardsCompleted::where('course_id', $course->id)->where('user_id', Auth::user()->id)->first();
 
                 if (!$rewardsComplete){
                     $rewardsComplete = new RewardsCompleted();
@@ -90,14 +92,32 @@ class LevelController extends Controller
                 $user->course_completed = $user->course_completed + 1;
                 $user->save();
                 
-            }else {
-                $reward = "";
+            } else if ($level->name == "level 2" && $level->category_id == 2){
+                $reward = Reward::where('course_id', $course->id)->first();
+                $rewardsComplete = RewardsCompleted::where('course_id', $course->id)->where('user_id', Auth::user()->id)->first();
+
+                if (!$rewardsComplete){
+                    $rewardsComplete = new RewardsCompleted();
+                    $rewardsComplete->category_id = $level->category_id;
+                    $rewardsComplete->course_id = $course_id;
+                    $rewardsComplete->user_id = Auth::user()->id;
+                    $rewardsComplete->name = $reward->name;
+                    $rewardsComplete->location = $reward->location;
+                    $rewardsComplete->save();
+                }
+
+                $user->course_completed = $user->course_completed + 1;
+                $user->save();
+            }
+            else {
+                $reward = [];
             }
 
             $response = [
                 'success' => true,
                 'data' => [
                     'status' => 'Passed',
+                    'course_name' => $course->title,
                     'right_ans' => $answer,
                     'wrong_ans' => 5 - $answer,
                     'skor' => $level_complete->skor,
@@ -113,6 +133,7 @@ class LevelController extends Controller
                 'success' => false,
                 'data' => [
                     'status' => 'Failed',
+                    'course_name' => $course->title,
                     'right_ans' => $answer,
                     'wrong_ans' => 5 - $answer,
                     'skor' => $answer * 20,

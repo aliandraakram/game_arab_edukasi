@@ -110,61 +110,71 @@ class QuestionSeeder extends Seeder
                 'course_id' => 6,
                 'level_id' => 31,
                 'title' => 'Hewan yang suka main di lumpur ini bernama..',
-                'image' => 'public\image\hewan_tumbuhan\babi.jpg'
+                'image' => 'public\image\hewan_tumbuhan\babi.jpg',
+                'audio' => 'public\voice\hewan\babi.mp3'
             ], [
                 'category_id' => 2,
                 'course_id' => 6,
                 'level_id' => 31,
                 'title' => 'serangga yang mempunyai sayap yang sangat indah ini bernama..',
-                'image' => 'public\image\hewan_tumbuhan\kupu-kupu.jpg'
+                'image' => 'public\image\hewan_tumbuhan\kupu-kupu.jpg',
+                'audio' => 'public\voice\hewan\bahasa_arab_kupu-kupu.mp3'
             ], [
                 'category_id' => 2,
                 'course_id' => 6,
                 'level_id' => 31,
                 'title' => 'Hewan yang bisa berlari sangat kencang ini bernama..',
-                'image' => 'public\image\hewan_tumbuhan\kuda.jpg'
+                'image' => 'public\image\hewan_tumbuhan\kuda.jpg',
+                'audio' => 'public\voice\hewan\kuda.mp3'
             ], [
                 'category_id' => 2,
                 'course_id' => 6,
                 'level_id' => 31,
                 'title' => 'Hewan yang suka menggonggong ini bernama..',
-                'image' => 'public\image\hewan_tumbuhan\anjing.jpg'
+                'image' => 'public\image\hewan_tumbuhan\anjing.jpg',
+                'audio' => 'public\voice\hewan\anjing.mp3'
             ], [
                 'category_id' => 2,
                 'course_id' => 6,
                 'level_id' => 31,
                 'title' => 'Hewan karnivora ini bernama..',
-                'image' => 'public\image\hewan_tumbuhan\tiger-looking-with-open-mouth.jpg'
+                'image' => 'public\image\hewan_tumbuhan\tiger-looking-with-open-mouth.jpg',
+                'audio' => 'public\voice\hewan\bahasa_arab_harimau.mp3'
             ], [
                 'category_id' => 2,
                 'course_id' => 6,
                 'level_id' => 32,
                 'title' => 'Hewan yang suka memakan keju ini bernama..',
-                'image' => 'public\image\hewan_tumbuhan\tikus.jpg'
+                'image' => 'public\image\hewan_tumbuhan\tikus.jpg',
+                'audio' => 'public\voice\hewan\bahasa_arab_tikus.mp3'
             ], [
                 'category_id' => 2,
                 'course_id' => 6,
                 'level_id' => 32,
                 'title' => 'Serangga yang suka memakan tumbuhan dan bergerak dengan cara melompat ini bernama',
-                'image' => 'public\image\hewan_tumbuhan\belalang.jpg'
+                'image' => 'public\image\hewan_tumbuhan\belalang.jpg',
+                'audio' => 'public\voice\hewan\bahasa_arab_belalang.mp3'
             ], [
                 'category_id' => 2,
                 'course_id' => 6,
                 'level_id' => 32,
                 'title' => 'Hewan yang memiliki bisa atau racun yang mematikan ini bernama..',
-                'image' => 'public\image\hewan_tumbuhan\ular.jpg'
+                'image' => 'public\image\hewan_tumbuhan\ular.jpg',
+                'audio' => 'public\voice\hewan\ular.mp3'
             ], [
                 'category_id' => 2,
                 'course_id' => 6,
                 'level_id' => 32,
                 'title' => 'Hewan yang bisa menghasilkan susu dan diminum oleh manusia bernama..',
-                'image' => 'public\image\hewan_tumbuhan\cows-standing-green-field-front-fuji-mountain-japan.jpg'
+                'image' => 'public\image\hewan_tumbuhan\cows-standing-green-field-front-fuji-mountain-japan.jpg',
+                'audio' => 'public\voice\hewan\sapi.mp3'
             ], [
                 'category_id' => 2,
                 'course_id' => 6,
                 'level_id' => 32,
                 'title' => 'Hewan yang menghasilkan madu ini bernama..',
-                'image' => 'public\image\hewan_tumbuhan\lebah.jpg'
+                'image' => 'public\image\hewan_tumbuhan\lebah.jpg',
+                'audio' => 'public\voice\hewan\bahasa_arab_lebah.mp3'
             ], [
                 'category_id' => 1,
                 'course_id' => 4,
@@ -260,61 +270,72 @@ class QuestionSeeder extends Seeder
                 'course_id' => 7,
                 'level_id' => 36,
                 'title' => 'Orang yang memiliki suara bagus biasanya akan menjadi seorang',
-                'image' => 'public\image\pekerjaan\penyanyi.jpg'
+                'image' => 'public\image\pekerjaan\penyanyi.jpg',
+                'audio' => 'public\voice\pekerjaan\penyanyi.mp3'
             ], [
                 'category_id' => 2,
                 'course_id' => 7,
                 'level_id' => 36,
                 'title' => 'Orang yang memiliki kemampuan untuk menggambar di kanvas biasanya disebut seorang …',
-                'image' => 'public\image\pekerjaan\pelukis.jpg'
+                'image' => 'public\image\pekerjaan\pelukis.jpg',
+                'audio' => 'public\voice\pekerjaan\bahasa_arab_pelukis.mp3'
             ], [
                 'category_id' => 2,
                 'course_id' => 7,
                 'level_id' => 36,
                 'title' => 'Orang yang bertugas untuk membangun rumah dan Gedung biasa disebut seorang…',
-                'image' => 'public\image\kuli_bangunan.jpg'
+                'image' => 'public\image\kuli_bangunan.jpg',
+                'audio' => 'public\voice\pekerjaan\bahasa_arab_kuli-bangunan.mp3'
+
             ], [
                 'category_id' => 2,
                 'course_id' => 7,
                 'level_id' => 36,
                 'title' => 'Orang yang bertugas untuk memotret dan memfoto orang-orang disebut…',
-                'image' => 'public\image\pekerjaan\fotografer.jpg'
+                'image' => 'public\image\pekerjaan\fotografer.jpg',
+                'audio' => 'public\voice\pekerjaan\fotografer.mp3'
             ], [
                 'category_id' => 2,
                 'course_id' => 7,
                 'level_id' => 36,
                 'title' => 'Orang yang bertugas untuk membuat berita dan memberitakan suatu kejadian disebut…',
-                'image' => 'public\image\pekerjaan\reporter.jpg'
+                'image' => 'public\image\pekerjaan\reporter.jpg',
+                'audio' => 'public\voice\pekerjaan\reporter.mp3'
             ], [
                 'category_id' => 2,
                 'course_id' => 7,
                 'level_id' => 37,
                 'title' => 'Orang yang memimpin negara Indonesia dinamakan …',
-                'image' => 'public\image\pekerjaan\presiden.jpg'
+                'image' => 'public\image\pekerjaan\presiden.jpg',
+                'audio' => 'public\voice\pekerjaan\bahasa_arab_presiden.mp3'
             ], [
                 'category_id' => 2,
                 'course_id' => 7,
                 'level_id' => 37,
                 'title' => 'Orang yang mahir atau jago dalam suatu cabang olahraga biasa disebut sebagai …',
-                'image' => 'public\image\pekerjaan\atlet.jpg'
+                'image' => 'public\image\pekerjaan\atlet.jpg',
+                'audio' => 'public\voice\pekerjaan\bahasa_Arab_atlet.mp3'
             ], [
                 'category_id' => 2,
                 'course_id' => 7,
                 'level_id' => 37,
                 'title' => 'Orang yang memerankan karakter cowok dalam film disebut…',
-                'image' => 'public\image\pekerjaan\aktor.jpg'
+                'image' => 'public\image\pekerjaan\aktor.jpg',
+                'audio' => 'public\voice\pekerjaan\bahasa_arab_pelukis.mp3'
             ], [
                 'category_id' => 2,
                 'course_id' => 7,
                 'level_id' => 37,
                 'title' => 'Orang yang memerankan karakter cewek dalam film disebut…',
-                'image' => 'public\image\pekerjaan\aktor.jpg'
+                'image' => 'public\image\pekerjaan\aktor.jpg',
+                'audio' => 'public\voice\pekerjaan\bahasa_arab_pelukis.mp3'
             ], [
                 'category_id' => 2,
                 'course_id' => 7,
                 'level_id' => 37,
                 'title' => 'Orang yang bekerja di apotek ini bernama',
-                'image' => 'public\image\pekerjaan\Apoteker.jpg'
+                'image' => 'public\image\pekerjaan\Apoteker.jpg',
+                'audio' => 'public\voice\pekerjaan\bahasa_arab_apoteker.mp3'
             ], 
             // Benda dirumah
             [
@@ -412,61 +433,71 @@ class QuestionSeeder extends Seeder
                 'course_id' => 8,
                 'level_id' => 41,
                 'title' => 'Benda yang digunakan untuk meminum air ini bernama',
-                'image' => 'public\image\benda_dirumah\gelas.jpg'
+                'image' => 'public\image\benda_dirumah\gelas.jpg',
+                'audio' => 'public\voice\benda\bahasa_arab_gelas.mp3'
             ], [
                 'category_id' => 2,
                 'course_id' => 8,
                 'level_id' => 41,
                 'title' => 'Benda yang digunakan untuk memakan mie atau spagetti ini bernama',
-                'image' => 'public\image\benda_dirumah\garpu.jpg'
+                'image' => 'public\image\benda_dirumah\garpu.jpg',
+                'audio' => 'public\voice\benda\bahasa_arab_garpu.mp3'
             ], [
                 'category_id' => 2,
                 'course_id' => 8,
                 'level_id' => 41,
                 'title' => 'Benda yang digunakan untuk makan ini bernama',
-                'image' => 'public\image\benda_dirumah\sendok.jpg'
+                'image' => 'public\image\benda_dirumah\sendok.jpg',
+                'audio' => 'public\voice\benda\bahasa_arab_sendok.mp3'
             ], [
                 'category_id' => 2,
                 'course_id' => 8,
                 'level_id' => 41,
                 'title' => 'Benda yang biasa digunakan untuk mandi ini bernama',
-                'image' => 'public\image\benda_dirumah\gayung.jpg'
+                'image' => 'public\image\benda_dirumah\gayung.jpg',
+                'audio' => 'public\voice\benda\bahasa_arab_gayung.mp3'
             ], [
                 'category_id' => 2,
                 'course_id' => 8,
                 'level_id' => 41,
                 'title' => 'Benda yang digunakan untuk menyapu ini bernama',
-                'image' => 'public\image\benda_dirumah\sapu.jpg'
+                'image' => 'public\image\benda_dirumah\sapu.jpg',
+                'audio' => 'public\voice\benda\bahasa_arab_sapu.mp3'
             ], [
                 'category_id' => 2,
                 'course_id' => 8,
                 'level_id' => 42,
                 'title' => 'Benda yang digunakan untuk tempat membuang sampah ini bernama',
-                'image' => 'public\image\benda_dirumah\tempat sampah.jpg'
+                'image' => 'public\image\benda_dirumah\tempat sampah.jpg',
+                'audio' => 'public\voice\benda\bahasa_arab_tempat-sampah.mp3'
             ], [
                 'category_id' => 2,
                 'course_id' => 8,
                 'level_id' => 42,
                 'title' => 'Benda yang digunakan untuk meletakkan makanan ini bernama',
-                'image' => 'public\image\benda_dirumah\piring.jpg'
+                'image' => 'public\image\benda_dirumah\piring.jpg',
+                'audio' => 'public\voice\benda\bahasa_arab_piring.mp3'
             ], [
                 'category_id' => 2,
                 'course_id' => 8,
                 'level_id' => 42,
                 'title' => 'Benda yang digunakan untuk memotong ini bernama',
-                'image' => 'public\image\benda_dirumah\sendok.jpg'
+                'image' => 'public\image\benda_dirumah\pisau.jpg',
+                'audio' => 'public\voice\benda\bahasa_arab_pisau.mp3'
             ], [
                 'category_id' => 2,
                 'course_id' => 8,
                 'level_id' => 42,
                 'title' => 'Benda yang biasa digunakan untuk menyimpan teh atau air ini bernama',
-                'image' => 'public\image\benda_dirumah\gayung.jpg'
+                'image' => 'public\image\benda_dirumah\teko.jpg',
+                'audio' => 'public\voice\benda\bahasa_arab_teko.mp3'
             ], [
                 'category_id' => 2,
                 'course_id' => 8,
                 'level_id' => 42,
                 'title' => 'Benda yang digunakan untuk memasak ini bernama',
-                'image' => 'public\image\benda_dirumah\sapu.jpg'
+                'image' => 'public\image\benda_dirumah\kompor.jpg',
+                'audio' => 'public\voice\benda\bahasa_arab_kompor.mp3'
             ], 
         ];
 

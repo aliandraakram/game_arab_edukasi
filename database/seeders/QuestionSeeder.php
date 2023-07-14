@@ -50,7 +50,7 @@ class QuestionSeeder extends Seeder
                 'course_id' => 3,
                 'level_id' => 2,
                 'title' => 'Hewan yang suka sekali memakan wortel bernama..',
-                'image' => 'public\image\hewan_tumbuhan\Ciri-ciri ayam betina yang baik untuk induk Ayam Super.jpg'
+                'image' => 'public\image\hewan_tumbuhan\kelinci.jpg'
             ], [
                 'category_id' => 1,
                 'course_id' => 3,
@@ -216,13 +216,13 @@ class QuestionSeeder extends Seeder
                 'course_id' => 4,
                 'level_id' => 7,
                 'title' => 'Orang yang pekerjaannya mengendarai pesawat adalah seorang…',
-                'image' => 'public\image\pekerjaan\koki.jpg'
+                'image' => 'public\image\pekerjaan\pilot.jpg'
             ], [
                 'category_id' => 1,
                 'course_id' => 4,
                 'level_id' => 7,
                 'title' => 'Orang yang pekerjaannya mengendarai kapal laut adalah seorang…',
-                'image' => 'public\image\pekerjaan\koki.jpg'
+                'image' => 'public\image\pekerjaan\nahkoda.jpg'
             ], [
                 'category_id' => 1,
                 'course_id' => 4,
@@ -319,16 +319,16 @@ class QuestionSeeder extends Seeder
                 'category_id' => 2,
                 'course_id' => 7,
                 'level_id' => 37,
-                'title' => 'Orang yang memerankan karakter cowok dalam film disebut…',
+                'title' => 'Orang yang membantu presiden dalam pekerjaannya disebut.. ',
                 'image' => 'public\image\pekerjaan\aktor.jpg',
-                'audio' => 'public\voice\pekerjaan\bahasa_arab_pelukis.mp3'
+                'audio' => 'public\voice\pekerjaan\Bahasa_Arab_Menteri.mp3'
             ], [
                 'category_id' => 2,
                 'course_id' => 7,
                 'level_id' => 37,
-                'title' => 'Orang yang memerankan karakter cewek dalam film disebut…',
+                'title' => 'Orang yang bekerja untuk membangun dan mengembangkan sesuatu disebut…',
                 'image' => 'public\image\pekerjaan\aktor.jpg',
-                'audio' => 'public\voice\pekerjaan\bahasa_arab_pelukis.mp3'
+                'audio' => 'public\voice\pekerjaan\Bahasa_arab_insinyur.mp3'
             ], [
                 'category_id' => 2,
                 'course_id' => 7,

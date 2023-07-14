@@ -510,7 +510,7 @@ class AnswerSeeder extends Seeder
                 'level_id' => 31,
                 'question_id' => 16,
                 'title' => 'b. خِنْزِيْرٌ (khinziirun)',
-                'value' => 2,
+                'value' => 1,
                 'skor' => 20
             ], [
                 'category_id'=> 2,
@@ -534,7 +534,7 @@ class AnswerSeeder extends Seeder
                 'level_id' => 31,
                 'question_id' => 17,
                 'title' => 'a. فَرَاشَةٌ (faraasyatun)',
-                'value' => 2,
+                'value' => 1,
                 'skor' => 20
             ], [
                 'category_id'=> 2,
@@ -582,7 +582,7 @@ class AnswerSeeder extends Seeder
                 'level_id' => 31,
                 'question_id' => 18,
                 'title' => 'c. حِصَانٌ (hishaanun)',
-                'value' => 2,
+                'value' => 1,
                 'skor' => 20
             ], [
                 'category_id'=> 2,
@@ -606,7 +606,7 @@ class AnswerSeeder extends Seeder
                 'level_id' => 31,
                 'question_id' => 19,
                 'title' => 'b.	كَلْبٌ (kalbun)',
-                'value' => 2,
+                'value' => 1,
                 'skor' => 20
             ], [
                 'category_id'=> 2,
@@ -630,7 +630,7 @@ class AnswerSeeder extends Seeder
                 'level_id' => 31,
                 'question_id' => 20,
                 'title' => 'a. نَمِرٌ (namirun)',
-                'value' => 2,
+                'value' => 1,
                 'skor' => 20
             ], [
                 'category_id'=> 2,
@@ -670,7 +670,7 @@ class AnswerSeeder extends Seeder
                 'level_id' => 32,
                 'question_id' => 21,
                 'title' => 'b. فَأْرَةٌ (fa`ratun)',
-                'value' => 2,
+                'value' => 1,
                 'skor' => 20
             ], [
                 'category_id'=> 2,
@@ -694,7 +694,7 @@ class AnswerSeeder extends Seeder
                 'level_id' => 32,
                 'question_id' => 22,
                 'title' => 'a. جَرَادٌ (jaraadun)',
-                'value' => 2,
+                'value' => 1,
                 'skor' => 20
             ], [
                 'category_id'=> 2,
@@ -750,7 +750,7 @@ class AnswerSeeder extends Seeder
                 'level_id' => 32,
                 'question_id' => 23,
                 'title' => 'd. ثُعْبَانٌ (tsu’baanun)',
-                'value' => 2,
+                'value' => 1,
                 'skor' => 20
             ], [
                 'category_id'=> 2,
@@ -774,7 +774,7 @@ class AnswerSeeder extends Seeder
                 'level_id' => 32,
                 'question_id' => 24,
                 'title' => 'c. بَقَرَةٌ (baqaratun)',
-                'value' => 2,
+                'value' => 1,
                 'skor' => 20
             ], [
                 'category_id'=> 2,
@@ -790,7 +790,7 @@ class AnswerSeeder extends Seeder
                 'level_id' => 32,
                 'question_id' => 25,
                 'title' => 'a. نَحْلَةٌ (nahlatun)',
-                'value' => 2,
+                'value' => 1,
                 'skor' => 20
             ], [
                 'category_id'=> 2,
@@ -1304,7 +1304,7 @@ class AnswerSeeder extends Seeder
                 'level_id' => 36,
                 'question_id' => 41,
                 'title' => 'a. مُغَنٍّ / mughonnin',
-                'value' => 2,
+                'value' => 1,
                 'skor' => 20
             ], [
                 'category_id'=> 2,
@@ -1352,7 +1352,7 @@ class AnswerSeeder extends Seeder
                 'level_id' => 36,
                 'question_id' => 42,
                 'title' => 'c. رَسَّامٌ / rossaamun',
-                'value' => 2,
+                'value' => 1,
                 'skor' => 20
             ], [
                 'category_id'=> 2,
@@ -1392,7 +1392,7 @@ class AnswerSeeder extends Seeder
                 'level_id' => 36,
                 'question_id' => 43,
                 'title' => 'd. بَنَّاؤُوْنَ / bannaa uuna',
-                'value' => 2,
+                'value' => 1,
                 'skor' => 20
             ], [
                 'category_id'=> 2,
@@ -1400,7 +1400,7 @@ class AnswerSeeder extends Seeder
                 'level_id' => 36,
                 'question_id' => 44,
                 'title' => 'a. مُصَوِّرٌ (mushowwirun)',
-                'value' => 2,
+                'value' => 1,
                 'skor' => 20
             ], [
                 'category_id'=> 2,
@@ -1456,7 +1456,7 @@ class AnswerSeeder extends Seeder
                 'level_id' => 36,
                 'question_id' => 45,
                 'title' => 'd. صَحَفِيٌّ/ sohafiqun',
-                'value' => 2,
+                'value' => 1,
                 'skor' => 20
             ], [
                 'category_id'=> 2,
@@ -1472,7 +1472,7 @@ class AnswerSeeder extends Seeder
                 'level_id' => 37,
                 'question_id' => 46,
                 'title' => 'b. رَئِيْسُ جُهْمُوْرِيَّةٍ / ro iisuu juhmuuriyyatin',
-                'value' => 2,
+                'value' => 1,
                 'skor' => 20
             ], [
                 'category_id'=> 2,
@@ -1512,7 +1512,7 @@ class AnswerSeeder extends Seeder
                 'level_id' => 37,
                 'question_id' => 47,
                 'title' => 'c. رِيَاضِيُّوْنَ / ri yaadliyyuna',
-                'value' => 2,
+                'value' => 1,
                 'skor' => 20
             ], [
                 'category_id'=> 2,
@@ -1551,8 +1551,8 @@ class AnswerSeeder extends Seeder
                 'course_id' => 7,
                 'level_id' => 37,
                 'question_id' => 48,
-                'title' => 'd. مُمَثِّلٌ / mumatsilun',
-                'value' => 2,
+                'title' => 'd. وَزِيْرٌ / waziirun',
+                'value' => 1,
                 'skor' => 20
             ], [
                 'category_id'=> 2,
@@ -1583,8 +1583,8 @@ class AnswerSeeder extends Seeder
                 'course_id' => 7,
                 'level_id' => 37,
                 'question_id' => 49,
-                'title' => 'd. مُمَثِّلٌ / mumatsilatun',
-                'value' => 2,
+                'title' => 'd. مُهَنْدِسٌ / muhandisun',
+                'value' => 1,
                 'skor' => 20
             ], [
                 'category_id'=> 2,
@@ -1600,7 +1600,7 @@ class AnswerSeeder extends Seeder
                 'level_id' => 37,
                 'question_id' => 50,
                 'title' => 'b. صَيْدَلِيٌّ / shoidaliyyun',
-                'value' => 2,
+                'value' => 1,
                 'skor' => 20
             ], [
                 'category_id'=> 2,
@@ -2106,7 +2106,7 @@ class AnswerSeeder extends Seeder
                 'level_id' => 41,
                 'question_id' => 66,
                 'title' => 'a.(Kuubun) كُوْبٌ',
-                'value' => 2,
+                'value' => 1,
                 'skor' => 20
             ], [
                 'category_id'=> 2,
@@ -2154,7 +2154,7 @@ class AnswerSeeder extends Seeder
                 'level_id' => 41,
                 'question_id' => 67,
                 'title' => 'c. (Syaukatun) شَوْكَةٌ',
-                'value' => 2,
+                'value' => 1,
                 'skor' => 20
             ], [
                 'category_id'=> 2,
@@ -2170,7 +2170,7 @@ class AnswerSeeder extends Seeder
                 'level_id' => 41,
                 'question_id' => 68,
                 'title' => 'a. (Mil’aqotun) مِلْعَقَةٌ ',
-                'value' => 2,
+                'value' => 1,
                 'skor' => 20
             ], [
                 'category_id'=> 2,
@@ -2218,7 +2218,7 @@ class AnswerSeeder extends Seeder
                 'level_id' => 41,
                 'question_id' => 69,
                 'title' => 'c. Mighrofatun مِغْرَفَةٌ',
-                'value' => 2,
+                'value' => 1,
                 'skor' => 20
             ], [
                 'category_id'=> 2,
@@ -2242,7 +2242,7 @@ class AnswerSeeder extends Seeder
                 'level_id' => 41,
                 'question_id' => 70,
                 'title' => 'b. (Miknasatun) مِكْنَسَةٌ ',
-                'value' => 2,
+                'value' => 1,
                 'skor' => 20
             ], [
                 'category_id'=> 2,
@@ -2266,7 +2266,7 @@ class AnswerSeeder extends Seeder
                 'level_id' => 42,
                 'question_id' => 71,
                 'title' => 'a. (Mazbalatun) مَزْبَلَةٌ ',
-                'value' => 2,
+                'value' => 1,
                 'skor' => 20
             ], [
                 'category_id'=> 2,
@@ -2322,7 +2322,7 @@ class AnswerSeeder extends Seeder
                 'level_id' => 42,
                 'question_id' => 72,
                 'title' => 'd. (Shohnun) صَحْنٌ',
-                'value' => 2,
+                'value' => 1,
                 'skor' => 20
             ], [
                 'category_id'=> 2,
@@ -2338,7 +2338,7 @@ class AnswerSeeder extends Seeder
                 'level_id' => 42,
                 'question_id' => 73,
                 'title' => 'b. (Sikkiinun) السِّكِّيْنُ ',
-                'value' => 2,
+                'value' => 1,
                 'skor' => 20
             ], [
                 'category_id'=> 2,
@@ -2378,7 +2378,7 @@ class AnswerSeeder extends Seeder
                 'level_id' => 42,
                 'question_id' => 74,
                 'title' => 'c. (Ibriikun) إِبْرِيْقٌ',
-                'value' => 2,
+                'value' => 1,
                 'skor' => 20
             ], [
                 'category_id'=> 2,
@@ -2410,7 +2410,7 @@ class AnswerSeeder extends Seeder
                 'level_id' => 42,
                 'question_id' => 75,
                 'title' => 'c. (Furnun) فُرْنٌ',
-                'value' => 2,
+                'value' => 1,
                 'skor' => 20
             ], [
                 'category_id'=> 2,

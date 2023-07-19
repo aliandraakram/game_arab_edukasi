@@ -111,7 +111,7 @@ class QuestionSeeder extends Seeder
                 'level_id' => 31,
                 'title' => 'Hewan yang suka main di lumpur ini bernama..',
                 'image' => 'public\image\hewan_tumbuhan\babi.jpg',
-                'audio' => 'public\voice\hewan\babi.mp3'
+                'audio' => 'public\voice\hewan\bahasa_arab_babi.mp3'
             ], [
                 'category_id' => 2,
                 'course_id' => 6,
@@ -125,14 +125,14 @@ class QuestionSeeder extends Seeder
                 'level_id' => 31,
                 'title' => 'Hewan yang bisa berlari sangat kencang ini bernama..',
                 'image' => 'public\image\hewan_tumbuhan\kuda.jpg',
-                'audio' => 'public\voice\hewan\kuda.mp3'
+                'audio' => 'public\voice\hewan\bahasa_arab_kuda.mp3'
             ], [
                 'category_id' => 2,
                 'course_id' => 6,
                 'level_id' => 31,
                 'title' => 'Hewan yang suka menggonggong ini bernama..',
                 'image' => 'public\image\hewan_tumbuhan\anjing.jpg',
-                'audio' => 'public\voice\hewan\anjing.mp3'
+                'audio' => 'public\voice\hewan\bahasa_arab_anjing.mp3'
             ], [
                 'category_id' => 2,
                 'course_id' => 6,
@@ -160,14 +160,14 @@ class QuestionSeeder extends Seeder
                 'level_id' => 32,
                 'title' => 'Hewan yang memiliki bisa atau racun yang mematikan ini bernama..',
                 'image' => 'public\image\hewan_tumbuhan\ular.jpg',
-                'audio' => 'public\voice\hewan\ular.mp3'
+                'audio' => 'public\voice\hewan\bahasa_arab_ular.mp3'
             ], [
                 'category_id' => 2,
                 'course_id' => 6,
                 'level_id' => 32,
                 'title' => 'Hewan yang bisa menghasilkan susu dan diminum oleh manusia bernama..',
                 'image' => 'public\image\hewan_tumbuhan\cows-standing-green-field-front-fuji-mountain-japan.jpg',
-                'audio' => 'public\voice\hewan\sapi.mp3'
+                'audio' => 'public\voice\hewan\bahasa_arab_sapi.mp3'
             ], [
                 'category_id' => 2,
                 'course_id' => 6,
@@ -271,7 +271,7 @@ class QuestionSeeder extends Seeder
                 'level_id' => 36,
                 'title' => 'Orang yang memiliki suara bagus biasanya akan menjadi seorang',
                 'image' => 'public\image\pekerjaan\penyanyi.jpg',
-                'audio' => 'public\voice\pekerjaan\penyanyi.mp3'
+                'audio' => 'public\voice\pekerjaan\bahasa_arab_penyanyi.mp3'
             ], [
                 'category_id' => 2,
                 'course_id' => 7,
@@ -293,14 +293,14 @@ class QuestionSeeder extends Seeder
                 'level_id' => 36,
                 'title' => 'Orang yang bertugas untuk memotret dan memfoto orang-orang disebut…',
                 'image' => 'public\image\pekerjaan\fotografer.jpg',
-                'audio' => 'public\voice\pekerjaan\fotografer.mp3'
+                'audio' => 'public\voice\pekerjaan\bahasa_arab_fotografer.mp3'
             ], [
                 'category_id' => 2,
                 'course_id' => 7,
                 'level_id' => 36,
                 'title' => 'Orang yang bertugas untuk membuat berita dan memberitakan suatu kejadian disebut…',
                 'image' => 'public\image\pekerjaan\reporter.jpg',
-                'audio' => 'public\voice\pekerjaan\reporter.mp3'
+                'audio' => 'public\voice\pekerjaan\bahasa_arab_reporter.mp3'
             ], [
                 'category_id' => 2,
                 'course_id' => 7,
